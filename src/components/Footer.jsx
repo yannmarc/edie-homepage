@@ -30,7 +30,7 @@ const Footer = () => {
                     </form>
                 </div>
             </div>
-            <p className="text-white text-center py-4 font-light">created by frontendninja 🔥 - devChallenges.io</p>
+            <p className="text-white text-sm lg:text-md text-center py-4 font-light">created by frontendninja 🔥 - devChallenges.io</p>
         </div>
     </Fragment>
   )
