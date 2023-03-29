@@ -8,10 +8,10 @@ function Hero() {
         <div className="py-12 px-[13px] max-w-5xl mx-auto xl:max-w-6xl">
             <div className="px-[40px] lg:px-[250px]">
                 <h5 className="font-medium text-[#2D9CDB] text-[12px] lg:text-[18px]">Unhappy with your website?</h5>
-                <h2 className="font-medium text-2xl lg:text-[48px] lg:leading-[54px] pb-4">We create beautiful and fast web services</h2>
+                <h2 className="font-medium text-2xl md:max-w-md lg:text-[48px] lg:leading-[54px] pb-4">We create beautiful and fast web services</h2>
             </div>
-            <div className="h-[145px] lg:h-[354px] rounded-lg overflow-hidden my-4"><img className="h-full w-full object-cover" src={heroImg} alt="eddie home page"/></div>
-            <div className="px-[40px] lg:mx-[200px] lg:w-[506px] pt-4">
+            <div className="h-[145px] md:h-[200px] lg:h-[354px] rounded-lg overflow-hidden my-4"><img className="h-full w-full object-cover" src={heroImg} alt="eddie home page"/></div>
+            <div className="px-[40px] lg:mx-[200px] lg:w-[506px] md:max-w-md pt-4">
                 <h2 className="font-medium text-2xl lg:text-[48px] lg:leading-[54px]">Story, emotion and purpose</h2>
                 <p className="font-light text-[12px] py-8">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
                 <form action="" className="relative">

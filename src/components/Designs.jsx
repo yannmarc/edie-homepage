@@ -36,10 +36,10 @@ const Designs = () => {
     <Fragment>
         <div className="px-4 max-w-5xl mx-auto">
             <div className="">
-                <h2 className="px-5 text-2xl font-medium lg:text-4xl lg:w-[508px] py-[60px] lg:px-0">Good design means good business</h2>
-                <div className="py-12 flex lg:grid grid-cols-2 flex-col gap-6 lg:gap-5 lg:gap-y-32">
+                <h2 className="px-5 text-2xl font-medium lg:text-4xl md:w-[300px] lg:w-[508px] py-[60px] lg:px-0">Good design means good business</h2>
+                <div className="py-12 md:py-32 flex md:grid md:grid-col-2 lg:grid grid-cols-2 flex-col gap-6 lg:gap-5 md:gap-y-24 lg:gap-y-32">
                     {projects.map((item) => (
-                        <div className="lg:even:translate-y-[-100px]" key={item.id}>
+                        <div className="md:even:translate-y-[-100px]" key={item.id}>
                             <div className="rounded-3xl overflow-hidden"><img className="w-full h-full object-cover hover:scale-110 transition-all" src={item.projectImg} alt={item.projectName} title={item.projectName} /></div>
                             <span className="text-[#828282] text-[12px] block mt-5">{item.projectCategory}</span>
                             <h4 className=" text-lg font-medium pt-[2px]">{item.projectName}</h4>

@@ -4,7 +4,6 @@ import { MdCreate, MdCode } from "react-icons/md";
 import { FaServer } from "react-icons/fa";
 
 function Section() {
-    const colors = ['#2D9CDB', '#27AE60', '#EB5757']
   const data = [
     {
       id: 1,
@@ -33,7 +32,7 @@ function Section() {
     <Fragment>
       <div className="px-4 max-w-5xl mx-auto py-[48px] lg:pt-[200px]">
         <h2 className="text-2xl font-medium px-[0px] lg:w-[346px] lg:text-4xl">We offer high demand services</h2>
-        <div className="flex  flex-col lg:flex-row gap-4 py-10">
+        <div className="flex flex-col md:grid md:grid-cols-2 lg:flex-row gap-4 py-10">
           {data.map((item, index) => (
             <div className="py-[46px] px-7 rounded-3xl" key={item.id}>
               <span style={{backgroundColor: item.colorCode}} className={`p-4 bg-icons w-16 h-16 rounded-xl flex justify-center items-center`}>
